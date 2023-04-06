@@ -1,0 +1,586 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background: linear-gradient(to top right, #72f7f2 10%, #9efffa 20%, #f8b4b4 75%);
+}
+
+
+
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 34px;
+    padding: 10px 25px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: 2px 2px 2px 0px #77D7D3,
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+    margin-left: 56px;
+}
+
+.btn-6 {
+    background: #FF6D6D;
+    background-image: linear-gradient(to right, #77D7D3 3%, #FF6D6D 48%, #73e9d7 100%);
+    ;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+}
+
+.btn-6 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-6:before,
+.btn-6:after {
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 1px;
+    box-shadow:
+        -1px -1px 20px 0px rgba(255, 255, 255, 1),
+        -4px -4px 5px 0px rgba(255, 255, 255, 1),
+        7px 7px 20px 0px rgba(0, 0, 0, .4),
+        4px 4px 5px 0px rgba(0, 0, 0, .3);
+}
+
+.btn-6:before {
+    right: 0;
+    top: 0;
+    transition: all 500ms ease;
+}
+
+.btn-6:after {
+    left: 0;
+    bottom: 0;
+    transition: all 500ms ease;
+}
+
+.btn-6:hover {
+    background: transparent;
+    color: #2E4049;
+    box-shadow: none;
+}
+
+.btn-6:hover:before {
+    transition: all 500ms ease;
+    height: 100%;
+}
+
+.btn-6:hover:after {
+    transition: all 500ms ease;
+    height: 100%;
+}
+
+.btn-6 span:before,
+.btn-6 span:after {
+    position: absolute;
+    content: "";
+    box-shadow:
+        -1px -1px 20px 0px rgba(255, 255, 255, 1),
+        -4px -4px 5px 0px rgba(255, 255, 255, 1),
+        7px 7px 20px 0px rgba(0, 0, 0, .4),
+        4px 4px 5px 0px rgba(0, 0, 0, .3);
+}
+
+.btn-6 span:before {
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: .5px;
+    transition: all 500ms ease;
+}
+
+.btn-6 span:after {
+    right: 0;
+    bottom: 0;
+    width: 0%;
+    height: .5px;
+    transition: all 500ms ease;
+}
+
+.btn-6 span:hover:before {
+    width: 100%;
+}
+
+.btn-6 span:hover:after {
+    width: 100%;
+}
+
+/* header */
+
+.header {
+    padding: 25px 0;
+    border: 1px solid #E6E6E6;
+    background-color: #77D7D3;
+    color: #000000;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__email {
+    margin-right: 700px;
+}
+
+/* Humanity */
+
+.Humanity {
+    padding: 47px 0 37px;
+}
+
+.Humanity__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Humanity__logo {
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 51px;
+    color: #2E4049;
+}
+
+.Humanity__link {
+    margin-left: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2E4049;
+}
+
+.Humanity__btn {
+    margin-left: 56px;
+    width: 190px;
+    height: 65px;
+    background-image: linear-gradient(to right, #f98459 0%, #eb8181 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    color: #FFFFFF;
+    border-radius: 34px;
+    font-size: 18px;
+}
+
+/* hero */
+
+.hero {
+    height: 918px;
+    background: url("./images/need\ help.png") no-repeat center;
+    background-size: cover;
+
+}
+
+.hero__title {
+    padding: 262px 0 164px;
+}
+
+.hero__text {
+    margin: 22px 0;
+    font-family: 'Sue Ellen Francisco';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 21px;
+    letter-spacing: 0.19em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hero__text-life {
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 90px;
+    line-height: 108.3%;
+    color: #FFFFFF;
+}
+
+.hero__text-below {
+    margin: 22px 0;
+    font-family: 'Sue Ellen Francisco';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 21px;
+    letter-spacing: 0.19em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hero__btn-hellp {
+    width: 154px;
+    height: 65px;
+    background: #FF6D6D;
+    color: #FFFFFF;
+    border-radius: 34px;
+    font-size: 18px;
+}
+
+.hero__btn-progect {
+    width: 154px;
+    height: 65px;
+    background: #FFFFFF;
+    color: #2E4049;
+    border-radius: 34px;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.hero__title-box {
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 108.3%;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.hero__subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #4A4A4A;
+    margin-bottom: 20px;
+}
+
+.hero__subtitle-SOS {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    color: #4A4A4A;
+    margin-bottom: 40px;
+}
+
+.hero__btn {
+    font-weight: 500;
+    font-size: 18px;
+    color: #2E4049;
+    width: 177px;
+    height: 66px;
+    background: #FFFFFF;
+    background-image: linear-gradient(to right, #77D7D3 3%, #FF6D6D 48%, #5de4d0 100%);
+    background-size: 200% auto;
+    border-radius: 34px;
+}
+
+.hero__btn-class {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2E4049;
+    width: 232px;
+    height: 66px;
+    background-image: linear-gradient(to right, #77D7D3 3%, #FF6D6D 48%, #73e9d7 100%);
+    border-radius: 34px;
+}
+
+
+.hero__wrapper__hellp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__box-ivent {
+    width: 401px;
+    height: 337px;
+    background: #77D7D3;
+    padding: 86px 40px 216px;
+}
+
+.hero__box-comand {
+    width: 401px;
+    height: 337px;
+    background: #547789;
+    padding: 90px 35px 216px;
+
+}
+
+.hero__box-good {
+    width: 401px;
+    height: 337px;
+    background: #FF6D6D;
+    padding: 86px 40px 216px;
+}
+
+/* about */
+
+.about {
+    padding: 391px 0;
+}
+
+.about__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about__subtitle {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 120%;
+    color: #FF6D6D;
+}
+
+.about__title {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 120%;
+    color: #2E4049;
+}
+
+.about__text {
+    font-weight: 400;
+    font-size: 22px;
+    color: #2E4049;
+    margin-bottom: 5px;
+}
+
+.about__span {
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.about__texе-motiv {
+    font-weight: 400;
+    font-size: 22px;
+    color: #2E4049;
+}
+
+.about__btn {
+    width: 189px;
+    height: 65px;
+    width: 189px;
+    height: 65px;
+    background: #FF6D6D;
+    border-radius: 34px;
+    margin: 32px 0;
+}
+
+
+.about__products {
+    background: #ECF1F0;
+    border-radius: 34px;
+    padding: 0 80px;
+}
+
+.about__wrapp-check {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 450px;
+    height: 350px;
+
+
+}
+
+.about__checkbox {
+    width: 80px;
+    clip-path: polygon(51% 0, 99% 43%, 90% 43%, 90% 85%, 13% 85%, 13% 43%, 5% 43%);
+
+
+}
+
+.about__lable {
+    content: "";
+    font-size: 20px;
+    margin: 40px 20px;
+
+}
+
+.about__checkbox:checked+.about__lable::before {
+    background-color: #72f7f2;
+}
+
+
+.about__cash {
+    font-weight: 800;
+    font-size: 25px;
+    color: #2E4049;
+    margin: 10px 0;
+}
+
+.about__products-btn {
+    width: 189px;
+    height: 65px;
+    background: #FF6D6D;
+    border-radius: 34px;
+    margin: 10px;
+}
+
+.events__progreress {
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #C5CECC;
+    margin-bottom: 10px;
+}
+
+.events__progress-done {
+    width: 75%;
+    height: 100%;
+    background-color: #FF6D6D;
+    border-radius: 5px;
+}
+
+.about__investment {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__money {
+    font-weight: 800;
+    font-size: 18px;
+    color: #2E4049;
+    margin: 5px 0;
+}
+
+/* reviews */
+
+.reviews {
+    padding:20px 0 50px;
+}
+
+.reviews__logo {
+    text-align: center;
+}
+
+.reviews__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews__testimonial {
+    font-family: 'Sue Ellen Francisco';
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 108.3%;
+    color: #FF6D6D;
+}
+
+.reviews__title {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 120%;
+    color: #2E4049;
+    margin-bottom: 64px;
+}
+
+.reviews__img {
+    width: 900px;
+    height: 200px;
+    overflow: hidden;
+    margin: 30px 0;
+}
+
+.reviews__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 34px;
+}
+
+.reviews__cards {
+    display: flex;
+    justify-content: space-between;
+    width: 560px;
+    height: 250px;
+    border-radius: 34px;
+    background: #ECF1F0;
+    padding: 25px;
+}
+
+.reviews__svg {
+    margin: 33px 270px 100px;
+}
+
+.reviews__four {
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 120%;
+    color: #2E4049;
+}
+
+.reviews__important {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.reviews__fouril {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #727272;
+}
+
+.reviews__text {
+    margin: 0 20px;
+}
+
+.reviews__subtitle {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    color: #FF6D6D;
+}
+
+.reviews__info {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #727272;
+}
+
+.reviews__line {
+    border: 1px solid #D0D0D0;
+    margin: 50px 0;
+}
+
+.reviews__brend {
+    display: flex;
+    justify-content: space-between;
+}
